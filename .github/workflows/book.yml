@@ -15,3 +15,4 @@ jobs:
         token: ${{ secrets.PERSONAL_TOKEN }}  # -> remember add this in settings/secrets as following
         source_branch: main
         source_edit_time: true
+        font_install: sudo apt-get install fonts-noto-cjk
